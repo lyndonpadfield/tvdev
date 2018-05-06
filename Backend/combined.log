@@ -1,0 +1,42 @@
+{"level":"info","message":"Hello distributed log files!"}
+{"message":"Hello again distributed logs","level":"info"}
+{ level: 'info',
+  message: 'Hello distributed log files!',
+  label: 'TVDEV - Property',
+  timestamp: '2018-05-06T02:49:23.794Z',
+  [Symbol(level)]: 'info' }
+{ message: 'Hello again distributed logs',
+  level: 'info',
+  label: 'TVDEV - Property',
+  timestamp: '2018-05-06T02:49:23.800Z',
+  [Symbol(level)]: 'info' }
+{ level: 'info',
+  message: 'Hello distributed log files!',
+  label: 'TVDEV - Property',
+  timestamp: '2018-05-06T02:50:02.979Z',
+  [Symbol(level)]: 'info' }
+{ message: 'Hello again distributed logs',
+  level: 'error',
+  label: 'TVDEV - Property',
+  timestamp: '2018-05-06T02:50:02.984Z',
+  [Symbol(level)]: 'error' }
+{"level":"info","message":"Hello distributed log files!","label":"TVDEV - Property","timestamp":"2018-05-06T02:52:38.609Z"}
+{"message":"Hello again distributed logs","level":"error","label":"TVDEV - Property","timestamp":"2018-05-06T02:52:38.612Z"}
+{"level":"info","message":"Hello distributed log files!","timestamp":"2018-05-06T02:55:59.956Z"}
+{"message":"Hello again distributed logs","level":"error","timestamp":"2018-05-06T02:55:59.958Z"}
+{"level":"info","message":"Hello distributed log files!","timestamp":"2018-05-06T02:56:32.782Z","label":"TVDEV - Property"}
+{"message":"Hello again distributed logs","level":"error","timestamp":"2018-05-06T02:56:32.786Z","label":"TVDEV - Property"}
+{"level":"info","message":"Hello distributed log files!","timestamp":"2018-05-06T02:57:14.310Z","label":"TVDEV - Property"}
+{"message":0,"level":"error","timestamp":"2018-05-06T02:57:14.313Z","label":"TVDEV - Property"}
+{"level":"info","message":"Hello distributed log files!","timestamp":"2018-05-06T02:57:28.219Z","label":"TVDEV - Property"}
+{"message":"[object Object] Hello again distributed logs","level":"error","timestamp":"2018-05-06T02:57:28.223Z","label":"TVDEV - Property"}
+{"level":"info","message":"Hello distributed log files!","timestamp":"2018-05-06T02:58:30.978Z","label":"TVDEV - Property"}
+{"message":0,"level":"error","timestamp":"2018-05-06T02:58:30.980Z","label":"TVDEV - Property"}
+2018-05-06T03:10:42.568Z [TVDEV - Property] info: Hello distributed log files!
+2018-05-06T03:10:42.570Z [TVDEV - Property] error:  Hello again distributed logs
+2018-05-06T03:10:55.826Z [TVDEV - Property] info: Hello distributed log files!
+2018-05-06T03:10:55.829Z [TVDEV - Property] error: Hello again distributed logs
+{"level":"info","message":"Hello distributed log files!","timestamp":"2018-05-06T03:12:53.613Z","label":"TVDEV - Property"}
+{"message":"Hello again distributed logs","level":"error","timestamp":"2018-05-06T03:12:53.616Z","label":"TVDEV - Property"}
+2018-05-06T03:13:08.904Z [TVDEV - Property] info: Hello distributed log files!
+2018-05-06T03:13:08.907Z [TVDEV - Property] error: Hello again distributed logs

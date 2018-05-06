@@ -4,7 +4,7 @@
   "description": "TV Backend ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nodemon --exec 'Mocha -R min'"
   },
   "repository": {
     "type": "git",
@@ -16,12 +16,15 @@
   "author": "Lyndon Padfield",
   "license": "ISC",
   "dependencies": {
+    "console-stamp": "^0.2.6",
     "eslint": "^4.19.1",
     "jshint": "^2.9.5",
+    "logform": "^1.6.0",
     "mocha": "^5.1.1",
     "mongoose": "^5.0.17",
     "nodemon": "^1.17.3",
-    "npm": "^6.0.0"
+    "npm": "^6.0.0",
+    "winston": "^3.0.0-rc5"
   },
   "devDependencies": {
     "eslint-config-google": "^0.9.1"
