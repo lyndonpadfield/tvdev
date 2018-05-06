@@ -40,3 +40,13 @@
 {"message":"Hello again distributed logs","level":"error","timestamp":"2018-05-06T03:12:53.616Z","label":"TVDEV - Property"}
 2018-05-06T03:13:08.904Z [TVDEV - Property] info: Hello distributed log files!
 2018-05-06T03:13:08.907Z [TVDEV - Property] error: Hello again distributed logs
+2018-05-06T06:24:18.409Z [TVDEV - Property] [32minfo[39m: Hello distributed log files!
+2018-05-06T06:24:18.412Z [TVDEV - Property] [31merror[39m: Hello again distributed logs
+2018-05-06T06:24:49.825Z [TVDEV - Property] [32minfo[39m: Hello distributed log files!
+2018-05-06T06:24:49.828Z [TVDEV - Property] [31merror[39m: Hello again distributed logs
+2018-05-06T06:25:17.673Z [TVDEV - Property] info: Hello distributed log files!
+2018-05-06T06:25:17.676Z [TVDEV - Property] error: Hello again distributed logs
+2018-05-06T06:35:35.225Z [TVDEV - Property] info: Hello distributed log files!
+2018-05-06T06:35:35.228Z [TVDEV - Property] error: Hello again distributed logs
+2018-05-06T10:18:19.997Z [TVDEV - Property] info: Address Written
+2018-05-06T10:18:20.065Z [TVDEV - Property] info: Good to go!
