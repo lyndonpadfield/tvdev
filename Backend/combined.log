@@ -50,3 +50,13 @@
 2018-05-06T06:35:35.228Z [TVDEV - Property] error: Hello again distributed logs
 2018-05-06T10:18:19.997Z [TVDEV - Property] info: Address Written
 2018-05-06T10:18:20.065Z [TVDEV - Property] info: Good to go!
+2018-05-12T11:06:08.338Z [TVDEV - Property] info: Address Written
+2018-05-12T11:06:08.436Z [TVDEV - Property] error: Warning
+2018-05-12T11:06:48.429Z [TVDEV - Property] info: Address Written
+2018-05-12T11:06:48.494Z [TVDEV - Property] info: Database connection successful!
+2018-05-12T11:11:39.231Z [TVDEV - Property] info: elastic-apm up and running
+2018-05-12T11:11:39.809Z [TVDEV - Property] info: Address Written
+2018-05-12T11:11:39.839Z [TVDEV - Property] info: Database connection successful!
+2018-05-12T11:14:02.575Z [TVDEV - Property] info: elastic-apm up and running
+2018-05-12T11:14:03.162Z [TVDEV - Property] info: Address Written
+2018-05-12T11:14:03.199Z [TVDEV - Property] info: Database connection successful!

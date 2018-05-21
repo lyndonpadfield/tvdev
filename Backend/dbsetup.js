@@ -1,3 +1,4 @@
+
 //Logger -- From Winston
 const { createLogger,format, transports} = require('winston');
 const { combine, timestamp, label, printf, json, colorize } = format;
@@ -11,7 +12,7 @@ const logger = createLogger({
     transports: [
       new transports.Console(),
       new transports.File({ filename: 'combined.log' }),
-      new transports.MongoDB({ db: 'mongodb://192.168.2.12/tvdev' })
+      new transports.MongoDB({ db: 'mongodb://localhost/tvdev' })
     ],
    format: combine(
         timestamp(),
@@ -20,12 +21,28 @@ const logger = createLogger({
     )
 });
 
+
+// Add this to the VERY top of the first file loaded in your app
+var apm = require('elastic-apm-node').start({
+    // Required app name (allowed characters:a-z, A-Z, 0-9, -, _, and space)
+    serviceName: 'TVDEV'
+    // Use if APM Server requires a token
+    //secretToken: '',
+    // Set custom APM Server URL (default: http://localhost:8200)
+    //serverUrl: 'http://localhost:8200'
+  })
+
+logger.info('elastic-apm up and running');
+
+
+
+
 //require('console-stamp')(console, '[HH:MM:ss.l]');
 
 //Mongo - Connection
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://192.168.2.12/tvdev');
+mongoose.connect('mongodb://localhost/tvdev');
 mongoose.connection
     .once('open', () => logger.info('Database connection successful!'))
     .on('error', (error) => {
